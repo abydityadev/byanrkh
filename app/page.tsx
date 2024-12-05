@@ -4,11 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-type Stats = {
-  title: string;
-  value: string;
-};
-
 export default async function page() {
   return (
     <Canvas>

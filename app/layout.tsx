@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import Navbar from "@/components/Navigation/Navbar";
 
 const font = IBM_Plex_Mono({
   subsets: ["latin"],
