@@ -7,6 +7,7 @@ import Navbar from "@/components/Navigation/Navbar";
 const font = Geist_Mono({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
